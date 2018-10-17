@@ -11,12 +11,12 @@ alert("Hey!");
 
 function frameIt() {
     $('img').on("load", function(e) {
-    img.class = tasty;
+    img.classAdd = tasty;
   });
 }
 
 function pressIt() {
-  $(document).on("keydown", function(e) {
+  $(document).on("keydown", function(key) {
     if (key.which == 71) {
       alert("You da real oG.");
     }
