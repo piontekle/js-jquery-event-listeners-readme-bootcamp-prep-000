@@ -11,7 +11,7 @@ alert("Hey!");
 
 function frameIt() {
     $('img').on("load", function(e) {
-    img.classAdd = tasty;
+    img.class = tasty;
   });
 }
 
