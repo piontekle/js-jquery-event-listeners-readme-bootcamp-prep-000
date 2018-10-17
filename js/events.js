@@ -4,19 +4,19 @@ $(document).ready(function(){
 
 // call functions here
 function getIt() {
-$('p').on("click", function() {
+$('p').on("click", function(e) {
 alert("Hey!");  
 });
 }
 
 function frameIt() {
-    $('img').on("load", function() {
+    $('img').on("load", function(e) {
     img.class = tasty;
   });
 }
 
 function pressIt() {
-  $(document).on("keydown", function() {
+  $(document).on("keydown", function(e) {
     if (key.which == 71) {
       alert("You da real oG.");
     }
