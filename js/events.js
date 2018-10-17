@@ -3,23 +3,30 @@
 $(document).ready(function(){
 
 // call functions here
-
-$('p').on("click", function getIt() {
+function getIt() {
+$('p').on("click", function() {
 alert("Hey!");  
 });
+}
 
-$('img').on("load", function frameIt() {
-img.class = tasty;
+function frameIt() {
+    $('img').on("load", function() {
+    img.class = tasty;
   });
+}
 
-$(document).on("keydown", function pressIt() {
+function pressIt() {
+  $(document).on("keydown", function() {
     if (key.which == 71) {
       alert("You da real oG.");
     }
   });
+}
 
-$('form').on("submit", function submitIt() {
+function submitIt() {
+  $('form').on("submit", function() {
     alert("Your form is going to be submitted now.")
   });
+}
 
 });
